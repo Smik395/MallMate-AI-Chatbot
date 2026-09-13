@@ -1,0 +1,31 @@
+id,name,floor_id,shop_number,category
+1,Nike,2,F-101,Fashion
+2,Adidas,2,F-102,Fashion
+3,Bata,2,F-103,Footwear
+4,Puma,2,F-104,Fashion
+5,Hamleys,2,F-105,Toys
+6,Max Fashion,2,F-106,Fashion
+7,WHSmith,3,F-201,Stationery
+8,Croma,3,F-202,Electronics
+9,Samsung,3,F-203,Electronics
+10,Apple Store,3,F-204,Electronics
+11,Reliance Digital,3,F-205,Electronics
+12,Lenovo,3,F-206,Electronics
+13,HP World,3,F-207,Electronics
+14,Raymond,3,F-208,Fashion
+15,Lifestyle,4,F-301,Fashion
+16,Pantaloons,4,F-302,Fashion
+17,Levi's,4,F-303,Fashion
+18,H&M,4,F-304,Fashion
+19,Westside,4,F-305,Fashion
+20,Shoppers Stop,4,F-306,Fashion
+21,Decathlon,4,F-307,Sports
+22,Archies,4,F-308,Gifts
+23,KFC,1,G-101,Food
+24,Dominos,1,G-102,Food
+25,Starbucks,1,G-103,Cafe
+26,Subway,1,G-104,Food
+27,Pizza Hut,1,G-105,Food
+28,INOX,1,G-106,Entertainment
+29,Gaming Zone,1,G-107,Entertainment
+30,Food Court,1,G-108,Food

@@ -1,0 +1,51 @@
+id,product_id,shop_id,price,stock,section
+1,1,7,50.0,25,Pens
+2,2,7,120.0,15,Pens
+3,3,7,30.0,30,Pens
+4,4,7,60.0,40,Notebooks
+5,5,7,80.0,25,Notebooks
+6,6,7,120.0,18,Geometry
+7,7,7,20.0,50,Pens
+8,8,13,47999.0,5,Laptops
+9,9,8,49999.0,4,Laptops
+10,10,12,49490.0,3,Laptops
+11,11,8,48999.0,4,Laptops
+12,12,9,74999.0,6,Smartphones
+13,13,10,79999.0,5,Smartphones
+14,14,9,9999.0,10,Audio
+15,15,10,14999.0,8,Audio
+16,16,9,59999.0,3,Television
+17,17,1,8999.0,8,Running Shoes
+18,18,1,4999.0,12,Running Shoes
+19,19,2,12999.0,7,Running Shoes
+20,20,4,5999.0,10,Running Shoes
+21,21,3,2499.0,15,Formal Shoes
+22,22,5,2999.0,8,Building Toys
+23,23,5,199.0,40,Toy Cars
+24,24,5,1499.0,12,Dolls
+25,25,1,1999.0,10,T-Shirts
+26,26,2,2999.0,8,Hoodies
+27,27,17,3499.0,10,Jeans
+28,28,18,1499.0,15,Shirts
+29,29,14,2999.0,8,Formal Wear
+30,30,21,799.0,15,Football
+31,31,21,1999.0,7,Cricket
+32,32,22,100.0,30,Greeting Cards
+33,33,22,499.0,20,Gifts
+34,34,25,250.0,50,Beverages
+35,35,23,199.0,30,Burgers
+36,36,24,399.0,20,Pizza
+37,37,26,199.0,25,Sandwiches
+38,38,27,449.0,20,Pizza
+39,39,9,29999.0,6,Smart Watches
+40,40,10,44999.0,5,Smart Watches
+41,41,13,1499.0,12,Computer Accessories
+42,42,11,2499.0,10,Computer Accessories
+43,43,11,4999.0,7,Speakers
+44,44,11,6999.0,8,Headphones
+45,45,1,1799.0,12,Sports Wear
+46,46,2,1299.0,10,Caps
+47,47,4,2499.0,9,Backpacks
+48,48,21,999.0,15,Yoga
+49,49,14,8999.0,5,Blazers
+50,50,22,1299.0,6,Soft Toys

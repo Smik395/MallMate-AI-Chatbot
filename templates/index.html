@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>MallMate</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+
+<body>
+
+    <div class="app">
+
+        <!-- HEADER -->
+
+        <header class="header">
+
+            <div class="logo">
+                🛍️
+                <span>MallMate</span>
+            </div>
+
+            <div class="header-subtitle">
+                Your smart mall assistant
+            </div>
+
+        </header>
+
+
+        <!-- MAIN CONTENT -->
+
+        <main class="main">
+
+            <!-- WELCOME -->
+
+            <section class="welcome">
+
+                <div class="welcome-icon">
+                    👋
+                </div>
+
+                <h1>
+                    Hello! How can I help?
+                </h1>
+
+                <p>
+                    Find shops, products, facilities
+                    and more inside the mall.
+                </p>
+
+            </section>
+
+
+            <!-- QUICK ACTIONS -->
+
+            <section class="quick-actions">
+
+                <button class="action-card"
+                        onclick="sendSuggestion('Find a shop')">
+
+                    <div class="action-icon">
+                        🛍️
+                    </div>
+
+                    <h3>
+                        Find a Shop
+                    </h3>
+
+                    <p>
+                        Locate your favourite store
+                    </p>
+
+                </button>
+
+
+                <button class="action-card"
+                        onclick="sendSuggestion('Find a product')">
+
+                    <div class="action-icon">
+                        🖊️
+                    </div>
+
+                    <h3>
+                        Find a Product
+                    </h3>
+
+                    <p>
+                        Search for products
+                    </p>
+
+                </button>
+
+
+                <button class="action-card"
+                        onclick="sendSuggestion('Find food')">
+
+                    <div class="action-icon">
+                        🍔
+                    </div>
+
+                    <h3>
+                        Food & Dining
+                    </h3>
+
+                    <p>
+                        Find restaurants and food
+                    </p>
+
+                </button>
+
+
+                <button class="action-card"
+                        onclick="sendSuggestion('Find facilities')">
+
+                    <div class="action-icon">
+                        🚻
+                    </div>
+
+                    <h3>
+                        Facilities
+                    </h3>
+
+                    <p>
+                        Washrooms, ATMs and more
+                    </p>
+
+                </button>
+
+            </section>
+
+
+            <!-- CHAT -->
+
+            <section class="chat-container">
+
+                <div id="chatMessages"
+                     class="chat-messages">
+
+                </div>
+
+
+                <!-- INPUT -->
+
+                <div class="chat-input-container">
+
+                    <input
+                        type="text"
+                        id="messageInput"
+                        placeholder="Ask me anything..."
+                        autocomplete="off"
+                    >
+
+                    <button
+                        id="sendButton"
+                        onclick="sendMessage()">
+
+                        ➤
+
+                    </button>
+
+                </div>
+
+            </section>
+
+        </main>
+
+
+        <!-- FOOTER -->
+
+        <footer class="footer">
+
+            MallMate • Making your mall visit easier 🛍️
+
+        </footer>
+
+    </div>
+
+
+    <script src="{{ url_for('static', filename='js/script.js') }}">
+    </script>
+
+</body>
+
+</html>
